@@ -11,6 +11,7 @@ TrAIvel Mate is a comprehensive solution for travelers, providing essential info
 
 ## Installation
 Clone the repository and install dependencies:
+
 git clone https://github.com/xartous/traivel.git
 cd traivel
 pip install -r requirements.txt
