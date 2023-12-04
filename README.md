@@ -13,17 +13,23 @@ TrAIvel Mate is a comprehensive solution for travelers, providing essential info
 Clone the repository and install dependencies:
 
 git clone https://github.com/xartous/traivel.git
+
 cd traivel
+
 pip install -r requirements.txt
 
 ## Configuration
 Set up your environment variables in a `.env` file:
+
 DATABASE_URL="your_database_url"
+
 GOOGLE_MAPS_API_KEY="your_api_key"
+
 RAPIDAPI_KEY="your_rapidapi_key"
 
 ## Usage
 Run the application:
+
 python app.py
 
 Access the API at `http://{server}:{port}/api`.
