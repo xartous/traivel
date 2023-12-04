@@ -1,4 +1,4 @@
-# Travel Companion API
+# TrAIvel Mate!
 
 ## Overview
 TrAIvel Mate is a comprehensive solution for travelers, providing essential information like hotel bookings, flight details, weather forecasts, and local attractions. This API serves as a one-stop portal for all travel-related inquiries, leveraging various external APIs and internal logic to deliver accurate and up-to-date information.
@@ -11,8 +11,8 @@ TrAIvel Mate is a comprehensive solution for travelers, providing essential info
 
 ## Installation
 Clone the repository and install dependencies:
-git clone [https://github.com/your-repository/travel-companion-api.git](https://github.com/xartous/traivel.git)
-cd travel-companion-api
+git clone https://github.com/xartous/traivel.git
+cd traivel
 pip install -r requirements.txt
 
 ## Configuration
@@ -43,4 +43,4 @@ This project is licensed under the [MIT License](LICENSE.md).
 For any inquiries or issues, please open an issue in the GitHub repository.
 
 ## Acknowledgments
-Special thanks to all contributors and users of the Travel Companion API.
+Special thanks to all contributors and users of the TrAIvel Mate.
