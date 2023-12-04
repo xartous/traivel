@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="header">
+        <!-- Placeholder for the logo -->
+        <div class="logo">
+            <img src="../static/img/artiqode.png" alt="" width="10%">
+        </div>
+
+        <h1>Welcome to the TrAIvel Mate!</h1>
+        <p>Use the form below to interact with our assistant.</p>
+    </div>
+
+    <div class="api-form">
+        <form id="api-form">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="I want to travel to..." required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="result-container" class="api-results">
+        <!-- Results from the API will be displayed here -->
+        <pre>{{ api_response }}</pre> <!-- Wrap the response with <pre> -->
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,62 @@
+/* /app/static/css/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5; /* Light grey background for better contrast */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  color: #333; /* Dark grey text color for readability */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto; /* Centers the container */
+  padding: 20px; /* Add padding to avoid content touching the edges */
+}
+
+.header {
+  text-align: center;
+  padding: 40px 20px; /* Increased padding for better spacing */
+  background: #007bff; /* A pleasant blue header background */
+  color: #fff; /* White text color for the header */
+}
+
+.api-form {
+  background: #fff; /* White background for the form */
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  border-radius: 5px; /* Rounded corners for the form */
+  margin-top: 20px;
+}
+
+#location {
+  padding: 10px;
+  margin-right: 10px; /* Spacing between input field and button */
+  border: 1px solid #ccc; /* Subtle border for the input */
+  border-radius: 4px; /* Rounded corners for the input field */
+}
+
+button {
+  padding: 10px 20px;
+  background: #28a745; /* Green background for a noticeable submit button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; /* Pointer cursor on hover for better user indication */
+}
+
+button:hover {
+  background: #218838; /* Darker green on hover for button interaction feedback */
+}
+
+.api-results {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  white-space: pre-wrap; /* Preserve white-space and new lines */
+  font-family: monospace; /* Optional: Monospace font for better readability */
+  line-height: 1.5; /* Improve line spacing for readability */
+  color: #333; /* Ensure the text color is readable */
+  overflow-x: auto; /* Adds horizontal scrolling if the content is too wide */
+}

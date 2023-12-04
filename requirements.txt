@@ -1,0 +1,7 @@
+requests~=2.31.0
+openai
+qdrant_client
+Flask~=3.0.0
+langchain~=0.0.345
+xmltodict~=0.13.0
+pydantic~=2.5.2
